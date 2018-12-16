@@ -23,6 +23,7 @@ dehydrated_lockfile:        "{{dehydrated_basedir}}/lock"
 dehydrated_ocspstaple:      "no"
 dehydrated_run_once:        false
 dehydrated_updatelog:       "/var/log/dehydrated.log"
+dehydrated_hook:            "create_privcert_pem"
 
 # Update git checkout
 dehydrated_updategit:       "true"
